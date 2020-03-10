@@ -39,6 +39,18 @@ img {
     padding: 3rem 2rem;
 }
 
+button {
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .btn {
     font-weight: 700;
     background-image: linear-gradient(left, $cyan 0%, $blue 100%);
