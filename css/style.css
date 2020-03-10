@@ -40,13 +40,11 @@ img {
 
 button {
   border: none;
-  color: white;
   padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
-  margin: 4px 2px;
   cursor: pointer;
 }
 
@@ -105,7 +103,7 @@ header .container ul li {
 }
 
 .main {
-  margin-bottom: 14rem;
+  margin-bottom: 8rem;
   background-color: #1c2431;
   background-position: 300px 500px;
 }
@@ -147,7 +145,7 @@ header .container ul li {
 }
 
 .features {
-  padding-bottom: 14rem;
+  padding-bottom: 8rem;
   background: url(../images/bg-curvy-desktop.svg) no-repeat bottom/cover;
 }
 
@@ -175,7 +173,7 @@ header .container ul li {
 }
 
 .highlight {
-  padding-bottom: 14rem;
+  padding-bottom: 8rem;
   background-color: #181f2a;
 }
 
@@ -399,14 +397,20 @@ footer .container .footer-info .social-icons a i {
     margin-left: 1rem;
     font-size: .85rem;
   }
+  .main {
+    margin-bottom: 4rem;
+  }
   .main .container .img-wrap {
     margin-bottom: 4rem;
   }
   .main .container h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .main .container p {
     font-size: 0.8rem;
+  }
+  .features {
+    padding-bottom: 0;
   }
   .features .container {
     display: block;
@@ -489,6 +493,9 @@ footer .container .footer-info .social-icons a i {
 }
 
 @media (max-width: 420px) {
+  header .container {
+    padding: 2rem 1rem;
+  }
   header .container img {
     width: 5rem;
   }
@@ -496,6 +503,12 @@ footer .container .footer-info .social-icons a i {
     padding: 0;
     margin-left: 1rem;
     font-size: .80rem;
+  }
+  .main .container {
+    padding: 2rem 1rem;
+  }
+  .main .container h1 {
+    font-size: 1.5rem;
   }
   .main .container p {
     padding: 0;

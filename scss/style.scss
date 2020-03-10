@@ -41,13 +41,11 @@ img {
 
 button {
     border: none;
-    color: white;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    margin: 4px 2px;
     cursor: pointer;
 }
 
@@ -95,8 +93,7 @@ header {
 }
 
 .main {
-    margin-bottom: 14rem;
-    
+    margin-bottom: 8rem;
     background-color: $dark-blue__intro-email;
     background-position: 300px 500px;
 
@@ -134,7 +131,7 @@ header {
 }
 
 .features {
-    padding-bottom: 14rem;
+    padding-bottom: 8rem;
     background: url(../images/bg-curvy-desktop.svg)no-repeat bottom/cover;
 
     .container {
@@ -158,7 +155,7 @@ header {
 }
 
 .highlight {
-    padding-bottom: 14rem;
+    padding-bottom: 8rem;
     background-color: $dark-blue__main-background;
     .container {
         display: flex;
@@ -375,6 +372,7 @@ footer {
     }
 
     .main {
+        margin-bottom: 4rem;
 
         .container {
             
@@ -383,7 +381,7 @@ footer {
             }
 
             h1 {
-                font-size: 1.3rem;
+                font-size: 2rem;
             }
 
             p {
@@ -393,6 +391,7 @@ footer {
     }
 
     .features {
+        padding-bottom: 0;
 
         .container {
             display: block;
@@ -509,6 +508,7 @@ footer {
     header {
 
         .container {
+            padding: 2rem 1rem;
 
             img {
                 width: 5rem;
@@ -529,6 +529,11 @@ footer {
     .main {
 
         .container {
+            padding: 2rem 1rem;
+
+            h1 {
+                font-size: 1.5rem;
+            }
 
             p {
                 padding: 0;
