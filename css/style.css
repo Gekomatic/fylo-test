@@ -142,6 +142,7 @@ header .container ul li {
 
 .main .container a {
   padding: 1rem 5rem;
+  font-size: 1rem;
 }
 
 .features {
@@ -173,7 +174,6 @@ header .container ul li {
 }
 
 .highlight {
-  padding-bottom: 8rem;
   background-color: #181f2a;
 }
 
@@ -227,7 +227,7 @@ header .container ul li {
 }
 
 .testimonials {
-  padding-bottom: 14rem;
+  padding: 14rem 2rem;
   background-color: #181f2a;
 }
 
@@ -418,11 +418,17 @@ footer .container .footer-info .social-icons a i {
   .features .container .feature {
     padding-bottom: 8rem;
   }
+  .highlight {
+    padding: 0;
+  }
   .highlight .container {
     display: block;
   }
   .highlight .container .highlight-img {
     margin-bottom: 4rem;
+  }
+  .highlight .container .highlight-content {
+    padding: 0;
   }
   .highlight .container .highlight-content h1 {
     font-size: 1.3rem;
@@ -431,7 +437,7 @@ footer .container .footer-info .social-icons a i {
     padding: 0;
   }
   .testimonials {
-    padding-bottom: 18rem;
+    padding: 14rem 2rem;
   }
   .testimonials .container {
     -webkit-box-orient: vertical;
@@ -442,6 +448,7 @@ footer .container .footer-info .social-icons a i {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 3rem 0;
   }
   footer .call-to-action {
     bottom: 700px;
@@ -512,5 +519,14 @@ footer .container .footer-info .social-icons a i {
   }
   .main .container p {
     padding: 0;
+  }
+  .features .container {
+    padding: 2rem 1rem;
+  }
+  .highlight .container {
+    padding: 2rem 1rem;
+  }
+  .testimonials {
+    padding: 14rem 1rem;
   }
 }

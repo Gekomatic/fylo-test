@@ -126,6 +126,7 @@ header {
         }      
         a {
             padding: 1rem 5rem;
+            font-size: 1rem;
         }  
     }
 }
@@ -155,8 +156,8 @@ header {
 }
 
 .highlight {
-    padding-bottom: 8rem;
     background-color: $dark-blue__main-background;
+
     .container {
         display: flex;
         align-items: center;
@@ -199,7 +200,7 @@ header {
 }
 
 .testimonials {
-    padding-bottom: 14rem;
+    padding: 14rem 2rem;
     background-color: $dark-blue__main-background;
     
     .container {
@@ -403,6 +404,7 @@ footer {
     }
 
     .highlight {
+        padding: 0;
         
         .container {
             display: block;
@@ -412,6 +414,7 @@ footer {
             }
 
             .highlight-content {
+                padding: 0;
 
                 h1 {
                     font-size: 1.3rem;
@@ -425,12 +428,13 @@ footer {
     }
 
     .testimonials {
-        padding-bottom: 18rem;
+        padding: 14rem 2rem;
 
         .container {
             flex-direction: column;
             justify-items: center;
             align-items: center;
+            padding: 3rem 0;
         }
 
     }
@@ -541,4 +545,21 @@ footer {
         }
     }
 
+    .features {
+
+        .container {
+            padding: 2rem 1rem;
+        }
+    }
+
+    .highlight {
+
+        .container {
+            padding: 2rem 1rem;
+        }
+    }
+
+    .testimonials {
+        padding: 14rem 1rem;
+    }
 }
